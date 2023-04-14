@@ -5,34 +5,34 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotExpenses from '@/images/screenshots/sskl.jpg'
+import screenshotPayroll from '@/images/screenshots/ddk.jpg'
+import screenshotReporting from '@/images/screenshots/uno.jpg'
+import screenshotVatReturns from '@/images/screenshots/cindo.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Servicios de emergencia',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "Brindamos atención médica inmediata a pacientes que presentan emergencias médicas graves o condiciones que requieren atención médica urgente.",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Servicios de hospitalización',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      " Ofrecemos atención médica integral a pacientes que requieren hospitalización y cuidados intensivos, incluyendo monitoreo constante y tratamiento médico especializado.",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Servicios de laboratorio',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      " Proporcionamos una amplia variedad de pruebas y exámenes de laboratorio para ayudar en el diagnóstico y tratamiento de enfermedades.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Servicios de cirugía',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'Realizamos una amplia variedad de procedimientos quirúrgicos y médicos, desde cirugías de rutina hasta intervenciones más complejas y especializadas..',
     image: screenshotReporting,
   },
 ]
@@ -72,11 +72,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Sobre nuestros servicios
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+          En nuestro hospital, nos enorgullece ofrecer una amplia variedad de servicios médicos de calidad, desde atención de emergencia y hospitalización hasta servicios especializados de cirugía, rehabilitación, atención preventiva y atención pediátrica. Nuestro equipo de profesionales altamente capacitados y dedicados está aquí para proporcionarle la mejor atención médica posible en todo momento.
           </p>
         </div>
         <Tab.Group

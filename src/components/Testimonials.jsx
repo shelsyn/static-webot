@@ -11,7 +11,7 @@ const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        '"Me sorprendió gratamente lo fácil que fue navegar por la página web del hospital. Encontré toda la información que necesitaba en cuestión de minutos".',
       author: {
         name: 'Sheryl Berge',
         role: 'CEO at Lynch LLC',
@@ -20,7 +20,7 @@ const testimonials = [
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        '"Fue muy útil tener acceso a los formularios de registro en línea para mi cita médica. Me ahorró mucho tiempo en comparación con tener que hacerlo en persona"',
       author: {
         name: 'Amy Hahn',
         role: 'Director at Velocity Industries',
@@ -31,7 +31,7 @@ const testimonials = [
   [
     {
       content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        '"Me encantó la función de chat en vivo en la página web del hospital. Pude hacer preguntas y recibir respuestas inmediatas sin tener que esperar en el teléfono"',
       author: {
         name: 'Leland Kiehn',
         role: 'Founder of Kiehn and Sons',
@@ -51,7 +51,7 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        '"La sección de recursos de salud en la página web fue muy informativa. Encontré muchos artículos y videos que me ayudaron a entender mejor mi condición médica"',
       author: {
         name: 'Peter Renolds',
         role: 'Founder of West Inc',
@@ -60,7 +60,7 @@ const testimonials = [
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        '"La opción de pagar mi factura en línea fue muy conveniente. Me ahorró un viaje al hospital y pude hacerlo en cualquier momento del día"',
       author: {
         name: 'Amy Hahn',
         role: 'Director at Velocity Industries',
@@ -88,12 +88,10 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            Experiencia de nuestros usuarios.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            
           </p>
         </div>
         <ul
